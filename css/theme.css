@@ -7,7 +7,7 @@ body {
 }
 
 .nav-menu {
-  padding-top: 1%;
+  padding-top: 1.5%;
   height: 120px;
 }
 
@@ -38,12 +38,11 @@ text-align: right;
 
 }
 
-.hero-left {
+.hero-left .imgplc img {
   width: 48%;
   height: 88%;
   float: left;
   margin: 40px 40px 40px 0;
-  background-color: #dddddd;
 }
 
 
@@ -59,11 +58,35 @@ text-align: right;
 color: #696969;
 }
 
+.hero-right h1 span {
+  border-bottom: solid 5px black,
+}
+
 .hero-right h2 {
-padding-top: 30px; 
+padding-top: 30px;
 font-family: 'Amiri', serif;
 font-weight: normal;
 font-size: 26px;
 text-align: right;
 color: rgba(105, 105, 105, 0.3);
+}
+
+
+.underline {
+   text-decoration: none;
+   position: relative;
+ }
+
+.underline:after {
+    position: absolute;
+    height: 20px;
+    margin: 0 auto;
+    content: '';
+    left: 0;
+    right: 0;
+    width: 100%;
+    color: #000;
+    background-color: #73f08747;
+    left: 0;
+    bottom: -3px; /* adjust this to move up and down. you may have to adjust the line height of the paragraph if you move it down a lot. */
 }
