@@ -1,38 +1,69 @@
-.nav-menu {
-  display: inline-flex;
-  float: right;
-  padding-right: 40px;
+
+body {
+  font-family: 'Libre Baskerville', serif;
+  color: #444444;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
-.nav-menu p {
-  font-family: serif;
-  color: #1c1c1c;
+.nav-menu {
+  padding-top: 1%;
+  height: 120px;
+}
+
+.nav-left {
+  max-width: 50%;
+  float: left;
+}
+
+.nav-right {
+  max-width: 50%;
+  float: right;
+}
+
+.nav-right p, .nav-left p {
   font-size: 18px;
-  padding: 20px;
+  font-weight: bold;
+  color: #696969;
+  line-height: 0.65;
+}
+
+.nav-right p {
+text-align: right;
 }
 
 .hero {
   width: 100%;
-  margin-top: 50px;
+  height: calc(100vh - 240px);
+
 }
 
-.hero .title {
-  padding-left: 60px;
-  padding-top: 3%;
+.hero-left {
+  width: 48%;
+  height: 88%;
+  float: left;
+  margin: 40px 40px 40px 0;
+  background-color: #dddddd;
 }
 
-.hero .title h1 {
-  font-family: serif;
-  font-size: 200px;
-  color: blue;
-  opacity: 0.8;
+
+.hero-right {
+  text-align: right;
+  padding-top: 20vh;
 }
 
-.underline {
-  width: 80%;
-  height: 50px;
-  background-color: pink;
-  opacity: 0.3;
-  margin-top: -10%;
+.hero-right h1 {
+font-family: 'Libre Baskerville', serif;
+font-size: 57px;
+text-align: right;
+color: #696969;
+}
 
+.hero-right h2 {
+padding-top: 30px; 
+font-family: 'Amiri', serif;
+font-weight: normal;
+font-size: 26px;
+text-align: right;
+color: rgba(105, 105, 105, 0.3);
 }
