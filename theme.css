@@ -1,11 +1,38 @@
 .nav-menu {
   display: inline-flex;
   float: right;
-  padding: 20px;
+  padding-right: 40px;
 }
 
 .nav-menu p {
   font-family: serif;
-  color: #fbfbfb;
-  font-size: 12px;
+  color: #1c1c1c;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.hero {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.hero .title {
+  padding-left: 60px;
+  padding-top: 3%;
+}
+
+.hero .title h1 {
+  font-family: serif;
+  font-size: 200px;
+  color: blue;
+  opacity: 0.8;
+}
+
+.underline {
+  width: 80%;
+  height: 50px;
+  background-color: pink;
+  opacity: 0.3;
+  margin-top: -10%;
+
 }
