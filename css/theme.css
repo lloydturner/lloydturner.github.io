@@ -140,78 +140,6 @@ p {
   color: #444444;
 }
 
-.projects {
-  width: 100vw;
-  padding: 30px 30px 0 30px;
-  margin-bottom: 20px;
-
-}
-
-.project-card-container {
-  display: grid;
-  grid-template-columns: 530px 530px;
-}
-
-.card-section {
-  height: 300px;
-  margin-bottom: 120px;
-  display: inline;
-}
-
-.card {
-  background-color: #f6f6f6;
-  display: inline-block;
-  padding: 0px;
-  max-width: 550px;
-  margin-right: 30px;
-  margin-top: 0px;
-  position: relative;
-  min-height:300px;
-}
-
-.card-final {
-  margin-right: 0px;
-}
-
-.img-container {
-  width: calc(100% - 40px);
-  height: 150px;
-}
-
-.img-container img {
-  width: 100%;
-  max-height: 140px;
-  overflow: hidden;
-  padding: 20px 20px 20px 20px;
-  object-fit: cover;
-}
-
-.card-title, .card-subtext {
-  padding: 10px 20px 0 20px;
-}
-
-.card-title p{
-  font-size: 24px;
-  font-family: 'Libre Baskerville', sans-serif;
-  margin-bottom: -18px;
-}
-
-.card-subtext p {
-  font-size: 18px;
-  padding-bottom: 60px;
-}
-
-.button {
-  border: 1px solid #69696980;
-  font-size: 16px;
-  font-family: 'Libre Baskerville', sans-serif;
-  color: #69696980;
-  background-color: #f6f6f6;
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-}
-
 .awards {
     float: right;
     background-color: #f6f6f6;
@@ -238,7 +166,55 @@ p {
   margin-top: -2px;
 }
 
-
-.card-1, .card-2, .card-3, .card-4, .card-5 {
-  padding: 10px 50px 10px 0;
+.cards-list {
+  z-index: 0;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
 }
+
+::-webkit-scrollbar {
+    display: none;
+  }
+
+  .p-card {
+    background-size: cover;
+    display: inline-block;
+    width: 250px;
+    height: 300px;
+    background-color: #f6f6f6;
+    margin-left:80px;
+    margin-right: -40px;
+    padding: 20px 30px;
+    position: relative;
+  }
+  .p-card h2 {
+    position: absolute;
+    bottom: 25px;
+    left: 20px;
+
+  }
+
+  .card:last-child {
+    margin-right: 80px;
+  }
+
+  .card-a {
+    background-image: url("/images/voller.png");
+  }
+
+  .card-b {
+    background-image: url("/images/tanjini.png");
+  }
+
+  .card-c {
+    background-image: url("/images/voller.png");
+  }
+
+  .card-d {
+    background-image: url("/images/voller.png");
+  }
