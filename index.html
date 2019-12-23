@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css?family=Amiri&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,700&display=swap" rel="stylesheet">
   <title>Lloyd Turner</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -18,14 +19,14 @@
   <div class="wrapper">
     <div class="nav-menu">
       <div class="nav-left">
-        <p>about</p>
-        <p>projects</p>
-        <p>awards</p>
+        <a href="#about-anchor"><p>about</p></a>
+        <a href="#project-anchor"><p>projects</p></a>
+        <a href="#awards-anchor"><p>awards</p></a>
       </div>
       <div class="nav-right">
-        <p>lloyd.turner@live.co.uk</p>
-        <p>074529660410</p>
-        <p>dribbble.com/lloydturner</p>
+        <a href="mailto:lloyd.turner@live.co.uk"><p>lloyd.turner@live.co.uk</p></a>
+        <p>07452960410</p>
+        <a href="https://dribbble.com/lloydturner"><p>dribbble.com/lloydturner</p></a>
       </div>
     </div>
   </div>
@@ -33,12 +34,13 @@
   <!-- LANDING PAGE -->
   <div class="wrapper">
 
-    <div class="hero">
+    <div class="hero" >
       <div class="hero-left">
-        <img src="#" alt="">
+        <img id="about-anchor" src="#" alt="">
       </div>
       <div class="hero-right">
         <h1>I'm Lloyd Turner - a<br><span class="underlinelarge">visual designer</span>, based<br>in London</h1>
+        <!-- <h1>I'm Lloyd Turner - a<br><span class="underlinelarge">visual designer</span>, based<br>in London</h1> -->
         <h2>University of Southampton Graduate '16</br>
           Tetuan Valley Startup School Graduate '17</h2>
       </div>
@@ -48,19 +50,24 @@
 
   <div class="about">
     <div class="wrapper">
-      <h3><span class="underlinesmall">about</span></h3>
+      <h3><span class="underlinesmall">About</span></h3>
       <p>I’m a visual designer that enjoys creating attractive, clean designs for web & mobile interfaces. I’ve worked with clients such as Google & Office Freedom; alongside law firms, e-commerce sites and even a pet store.
-        I’m currently open to new positions, so feel free to <a href=#>get in touch</a>.</p>
+        I’m currently open to new projects, so feel free to <a id="project-anchor" href='mailto:lloyd.turner@live.co.uk'>get in touch</a>.
+      </p>
     </div>
   </div>
 
 
 <!-- PROJECTS -->
-
   <div class="projects">
-    <div class="wrapper">
-      <h3><span class="underlinesmall">projects</span></h3>
+        <div class="wrapper">
+      <h3><span class="underlinesmall">Portfolio</span></h3>
     </div>
+  </div>
+
+  <div class="project-right">
+
+  </div>
 
   <div class="cards-list">
     <div class="p-card card-a">
@@ -71,64 +78,78 @@
       <h2>Roots</h2>
     </div>
 
-    <div class="p-card card-a">
-      <h2>Project 3</h2>
+    <div class="p-card card-c">
+      <h2>VW Golf</h2>
     </div>
 
-    <div class="p-card card-b">
-      <h2>Project 4</h2>
+    <div class="p-card card-d">
+      <h2 id="awards-anchor">Other works</h2>
     </div>
+</div>
 
 
+<div class="about-left">
 
 </div>
 
 
-
-
-
   <div class="awards">
     <div class="wrapper">
-      <h3><span class="underlinesmall">professional work/awards</span></h3>
+      <h3><span class="underlinesmall">Professional work/awards</span></h3>
 
       <div class="info-cards">
         <div class="card-1">
           <p class="title">Google</p>
-          <p class="description">Visual Designer,  Jul 19 - Mar 20 <br><br>
-          At Google, I am a Visual Designer based within the People Development Team. I am responsible for a global, department-wide rebrand - incuding all documents, presentational materials (digital & printed) and website development.<br><br>
-          This is a contract role, ending Q1 2020. </p>
+          <p class="description">Visual Designer,  Jul '19 - Present<br><br>
+            At Google, I am a Visual Designer based within the People Development Team. I have been tasked with focusing on user-centered design principles to produce high-quality, beautiful and engaging learning material, from concept to execution.
+            During my time here, I have also worked on several other projects, including global site redesigns, presentation materials and supporting documents. </p>
         </div>
         <div class="card-2">
           <p class="title">Office Freedom</p>
-          <p class="description">Visual Designer,  Jul 19 - Mar 20 <br><br>I was the lead graphic designer for a global coworking broker, creating graphic materials (such as presentations, documents for print and digital, reports & pitch decks) and web designs (custom web elements for ux/ui testing, & landing pages/ White Label widgets for alternate revenue streams). These were mainly created for the London and Manhattan offices.
-          </div>
+          <p class="description">Visual Designer,  March '19 - July '19 <br><br>I was the in-house graphic designer for a global coworking broker, creating all graphic materials (such as presentations, documents for print and digital, reports & pitch decks) and web designs (custom web elements for ux/ui testing, & landing pages/ White Label widgets for alternate revenue streams). These were mainly created for the London and Manhattan offices.
+
+          I also worked closely with the marketing team, providing graphics and designs for social media posts and promotional materials.</p>
+        </div>
         <div class="card-3">
           <p class="title">Netrix</p>
-          <p class="description">Visual Designer,  Jul 19 - Mar 20 <br><br>
-          I was the lead web designer for over 20 clients, specialising in bespoke sites for mobile and web. I worked on a range of projects for different users, and saw the client through the entire design process, from initial wireframing to front end development (using HTML/CSS, specifically LESS).  <br><br>Other tasks included infographic design, HTML email design and development, and UX design. </p>
+          <p class="description">Visual Designer, Sept '18 - Mar '19<br><br>
+          I was the in-house web designer for an award-winning design agency, representing over 20 clients. Nertrix specialised in bespoke website designs for mobile and web. I worked on a range of projects for different users, and saw the client through the entire design process, from initial wireframing to front end development (using HTML/CSS, specifically LESS).
+          Other tasks included infographic design, HTML email design and development, and UX design. </p>
         </div>
         <div class="card-4">
           <p class="title">Tetuan Valley Startup School</p>
-          <p class="description">Visual Designer,  Jul 19 - Mar 20 <br><br>
-          AMyself and my teammate were chosen from over 400 applicants to attend this 8 week innovation course. We created a product idea, and spent 8 weeks honing skills in branding, pitching, presentation design, metrics, social media advertising and we successfully built a hardware prototype.<br><br>Alongside this, I created all branding materials for the company, including a logo, pitch deck, business plan, website, social media marketing, advertising and a press kit. </p>
+          <p class="description">Graduate, May '17 <br><br>
+          Myself and my teammate were chosen from over 400 applicants to attend this 8 week innovation course. We created a product idea, spent 8 weeks honing skills in branding, pitching, presentation design, metrics, social media advertising - and successfully built a functional hardware prototype.
+          Alongside this, I created all branding materials for the company, including a logo, pitch deck, business plan, website, social media marketing, advertising and a press kit. </p>
         </div>
         <div class="card-5">
           <p class="title">University of Southampton Social Innovation Challenge</p>
-          <p class="description">Visual Designer,  Jul 19 - Mar 20 <br><br>
-          AThis was a competion run by the University of Southampton, in which participants had to pitch to a panel of experts their idea for an innovative product, with a social benefit. Myself and my team mate went on to win this competition, and represnted our University at a competition in Toronto, Canada.</p>
+          <p class="description">Winner, Feb '15 <br><br>
+          This was a competion run by the University of Southampton, in which participants had to pitch to a panel of experts their idea for an innovative product, with a social benefit. Myself and my team mate went on to win this competition, and represnted our University at a competition in Toronto, Canada.</p>
         </div>
-
-
         </div>
-
     </div>
   </div>
 
 
+  <div class="about footer-cta">
+    <div class="wrapper">
+      <h3><span class="underlinesmall">Get in touch</span></h3>
+      <p>I'm always looking to take on new projects. If you have a project in mind, please <a href='mailto:lloyd.turner@live.co.uk'>reach out</a> - I'd love to hear from you.</p>
+    </div>
+    <div class="footer-icon">
+      <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+    </div>
+  </div>
 
-
-
+<div class="footer">
+  <div class="wrapper">
+    <div class="footer-icons">
+      <a href="https:dribbble.com/lloydturner"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+      <a href="mailto:lloyd.turner@live.co.uk"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+      <a href="https://www.linkedin.com/in/lloyd-turner-370837110/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+    </div>
+  </div>
+</div>
 </body>
-
 </html>
-`
